@@ -1,13 +1,177 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --primary-dark-blue: #0A1128;
+  --secondary-dark-blue: #001F54;
+  --terciary-blue: #034078;
+  --clear-blue: #2196F3;
+  --main-white: #FEFCFB;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  margin: 0em !important;
+  padding: 0em !important;
+  overflow-x: hidden;
+  background-color: #0A1128 !important;
+}
+
+/*FONTS STYLES*/
+.clear-blue-color{
+  color: var(--clear-blue);
+}
+
+.main-white{
+  color: var(--main-white) !important;
+}
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: justify !important;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* BUTTONS & PILLS */
+.disabled-pill{
+  width: auto;
+  padding: 1% 1.5%;
+  color: var(--main-white);
+  background-color: var(--terciary-blue);
+  border-radius: 15px;
+  border: 1px solid var(--main-white);
+}
+
+.dark-button{
+  width: auto;
+  padding: 1.5% 3%;
+  margin-top: 5% !important;
+  text-decoration: none;
+  color: var(--clear-blue);
+  background-color: var(--darker-blue);
+  border-radius: 8px;
+  border: 1px solid var(--clear-blue);
+}
+
+.dark-button:hover{
+  text-decoration: none;
+  color: var(--main-white);
+  background-color: var(--clear-blue);
+  border-radius: 8px;
+  border: 1px solid var(--darker-blue);
+}
+
+/* Rewrited Styles */
+.text-justify{
+  text-align: justify !important;
+}
+
+.text-right{
+  text-align: right !important;
+}
+
+.navbar-toggler-icon {
+  filter: brightness(0) saturate(100%) invert(96%) sepia(2%) saturate(850%) hue-rotate(319deg) brightness(104%) contrast(99%) !important;
+}
+
+.nav-link{
+  color: var(--main-white) !important;
+}
+
+.nav-link:hover{
+  color: var(--clear-blue) !important;
+}
+
+/* SIZES */
+.width-30{
+  width: 30% !important;
+}
+
+.width-15{
+  width: 15% !important;
+}
+
+.margin-top-10{
+  margin-top: 10% !important;
+}
+
+/*FILTERS*/
+.white-filter{
+  filter: brightness(0) saturate(100%) invert(100%) sepia(90%) saturate(256%) hue-rotate(342deg) brightness(113%) contrast(99%);
+}
+
+/* LINKS */
+.icon-link {
+  transition: transform 0.3s ease-in-out;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(90%) saturate(256%) hue-rotate(342deg) brightness(113%) contrast(99%);
+}
+
+.icon-link:hover{
+  transform: translateY(-8px);
+  filter: brightness(0) saturate(100%) invert(65%) sepia(85%) saturate(4762%) hue-rotate(184deg) brightness(100%) contrast(91%);
 }

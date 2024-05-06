@@ -1,0 +1,31 @@
+{
+    "formalJobs": [
+        {
+            "id": 1,
+            "timeline": "March 2023 - April 2024",
+            "job_title": "Web Developer",
+            "work_place": "Your Answer Center Solution",
+            "job_description": "I work as a frontend developer using React for a company private application. I'm also in charge of small-medium changes in the company portal, using Laravel as a fullstack tool. I contribute to the team by gatering information and simplifying internal processes."
+        },
+        {
+            "id": 2,
+            "timeline": "July 2022 - January 2023",
+            "job_title": "Web Developer",
+            "work_place": "Zebra High Performance Mkt",
+            "job_description": "I was in charge of the maintenance of our clients landing pages, websites and the company portal and API. I worked with tools like WordPress, Instapage, CodeIgniter, Kommo CRM, ActiveCampaign, Zapier, FileZilla and MySQL."
+        },
+        {
+            "id": 3,
+            "timeline": "March 2021 - July 2021",
+            "job_title": "Web Development Teacher",
+            "work_place": "IBITS Academy",
+            "job_description": "As a teacher, I was responsible for planning the subject topics and I was in charge of a small group of kids between 10 - 14 years old. I taught them the basics of HTML, CSS and how the web works."
+        }
+    ],
+    "otherJobs": [
+        {
+            "id": 1,
+            "name": "PHP"
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "softSkills": [
+        {
+            "id": 1,
+            "name": "Work Under Pressure"
+        },
+        {
+            "id": 2,
+            "name": "Teamwork"
+        },
+        {
+            "id": 3,
+            "name": "Leadership Skills"
+        },
+        {
+            "id": 4,
+            "name": "Empathy"
+        },
+        {
+            "id": 5,
+            "name": "Self-taught"
+        },
+        {
+            "id": 6,
+            "name": "Fast Learner"
+        },
+        {
+            "id": 7,
+            "name": "Responsible"
+        },
+        {
+            "id": 8,
+            "name": "Communication Habilities"
+        }
+    ],
+    "techSkills": [
+        {
+            "id": 1,
+            "name": "PHP"
+        },
+        {
+            "id": 2,
+            "name": "Laravel"
+        },
+        {
+            "id": 3,
+            "name": "React"
+        },
+        {
+            "id": 4,
+            "name": "HTML & CSS"
+        },
+        {
+            "id": 5,
+            "name": "MySQL & JQuery"
+        },
+        {
+            "id": 6,
+            "name": "WordPress"
+        },
+        {
+            "id": 7,
+            "name": "Angular"
+        },
+        {
+            "id": 8,
+            "name": "Bootstrap"
+        },
+        {
+            "id": 9,
+            "name": "APIs Management"
+        },
+        {
+            "id": 10,
+            "name": "Git & GitHub"
+        },
+        {
+            "id": 11,
+            "name": "Java"
+        },
+        {
+            "id": 12,
+            "name": "Spring Boot"
+        },
+        {
+            "id": 13,
+            "name": "CodeIgniter"
+        },
+        {
+            "id": 14,
+            "name": "Tailwind"
+        },
+        {
+            "id": 15,
+            "name": "Kommo CRM"
+        },
+        {
+            "id": 16,
+            "name": "ActiveCampaign"
+        },
+        {
+            "id": 17,
+            "name": "Zapier"
+        },
+        {
+            "id": 18,
+            "name": "Instapage"
+        },
+        {
+            "id": 19,
+            "name": "Figma"
+        },
+        {
+            "id": 20,
+            "name": "Notion"
+        },
+        {
+            "id": 21,
+            "name": "Trello"
+        }
+    ]
+}
