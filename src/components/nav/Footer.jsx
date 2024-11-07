@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function Footer () {
     return (
-        <Container className='margin-top-10'>
+        <Container className='margin-top-10 w-50'>
             <Row className='mb-4 justify-content-end align-items-center'>
                 <Col lg={3} xs={6}>
                     <h4 className='main-white roboto-regular mb-0'>Get to know me!</h4>

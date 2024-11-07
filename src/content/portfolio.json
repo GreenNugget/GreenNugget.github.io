@@ -1,0 +1,48 @@
+{
+    "mainProjects": [
+        {
+            "id": 1,
+            "project_name": "Vainilla Landing Page",
+            "description": "While I was in college, I got into a group os students who worked non-profit to make small software projects for small Merida businesses and I got to design and build a landing page with animations from scratch by myself (with the supervision of the students that were part of the group) for the very first time. I worked with Figma for the UI, JS for animations and CSS and HTML for everything else."
+        },
+        {
+            "id": 2,
+            "project_name": "Vainilla Landing Page",
+            "description": "My first freelance job was to design and develop a landing page for a Psychologist using vainilla technologies such as Figma for the design of the prototypes (desktop, mobile and tablet) and JS, CSS and HTML for the content. Fun fact: this was the first time I got in touch with a server by myself to upload the landing page and I enjoyed it."
+        },
+        {
+            "id": 3,
+            "project_name": "Refactoring of the Company Dashboard",
+            "description": "I worked with CodeIgniter and Kommo CRM API to refactor legacy code for the company dashboard. I repaired some bugs and errors in order to add new functionalities on the reports module. I also had to work with the company server in order to give mantainance to the database and fix some errors and consults."
+        },
+        {
+            "id": 4,
+            "project_name": "WordPress Website for Diving",
+            "description": "I worked with WordPress and a template to create a read-only website to provide information about diving trips provided by a particular company. I have experience working with WordPress so it was a fast paced project, thanks to the template and the plugins. Later on the project the option for booking a trip was added, it was part of the template, but I was in charge of the configuration."
+        },
+        {
+            "id": 5,
+            "project_name": "Design and Development of a Website for a BIM Agency",
+            "description": "Working with WordPress and Figma, I designed and developed a website for a BIM Agency, adding plugins for other functionalities such as language options, SEO and design. The most exciting part of this project was working some components from scratch on the design; the client had a clear view of what she wanted, so it was a challenge and quite some work to get the idea right."
+        },
+        {
+            "id": 6,
+            "project_name": "Freelance Development for a Tracking Platform",
+            "description": "Using Laravel and other dependencies related to design like Tailwind, I worked as a freelance developer with a college and worked on designing components, files, db strutures and pdf templates for the project. This experience was a huge challenge since it was my first 'big' freelance gig, so it taught me about a lot of technologies and practices. I worked mainly on the frontend, but also helped as a backend developer at some point."
+        }
+    ],
+    "sideProjects": [
+        {
+            "id": 1,
+            "project_name": "Notion Templates",
+            "description": ""
+        }
+    ],
+    "otherActivities": [
+        {
+            "id": 1,
+            "project_name": "",
+            "description": ""
+        }
+    ]
+}

@@ -97,6 +97,20 @@ body{
   font-style: italic;
 }
 
+/* BACKGROUNDS */
+.dark-blue-background{
+  background-color: var(--primary-dark-blue) !important;
+}
+
+.secondary-dark-blue-background{
+  background-color: var(--secondary-dark-blue);
+}
+
+/* BORDERS */
+.clear-blue-border{
+  border: 4px solid var(--secondary-dark-blue) !important;
+}
+
 /* BUTTONS & PILLS */
 .disabled-pill{
   width: auto;

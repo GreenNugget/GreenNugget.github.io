@@ -1,18 +1,17 @@
+import { Route, Routes } from 'react-router-dom'
 import NavBar from './components/nav/NavBar';
-import PresentationBanner from './components/banners/PresentationBanner';
-import SkillsSection from './components/sections/SkillsSection';
-import ExperienceSection from './components/sections/ExperienceSection';
-import AboutMeSection from './components/sections/AboutMeSection';
 import Footer from './components/nav/Footer';
+import HomePage from './pages/HomePage';
+import PortfolioPage from './pages/PortfolioPage';
 
 function App() {
   return (
     <>
-      <NavBar/>
-      <PresentationBanner className='mb-5'/>
-      <SkillsSection />
-      <ExperienceSection />
-      <AboutMeSection />
+      <NavBar />
+      <Routes>
+        <Route exact path="/" element={<HomePage />} />
+        <Route exact path="/portfolio" element={<PortfolioPage />} />
+      </Routes>
       <Footer />
     </>
   );
