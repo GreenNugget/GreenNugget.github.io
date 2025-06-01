@@ -31,6 +31,46 @@
         {
             "id": 8,
             "name": "Communication Habilities"
+        },
+        {
+            "id": 9,
+            "name": "Time Management"
+        },
+        {
+            "id": 10,
+            "name": "Enthusiast"
+        },
+        {
+            "id": 11,
+            "name": "Transparency"
+        },
+        {
+            "id": 12,
+            "name": "Adaptability"
+        },
+        {
+            "id": 13,
+            "name": "Responsibility"
+        },
+        {
+            "id": 14,
+            "name": "Problem Solving"
+        },
+        {
+            "id": 15,
+            "name": "Conflict Resolution"
+        },
+        {
+            "id": 16,
+            "name": "Positivity"
+        },
+        {
+            "id": 17,
+            "name": "Creativity"
+        },
+        {
+            "id": 9,
+            "name": "Emotional Intelligence"
         }
     ],
     "techSkills": [
@@ -125,6 +165,26 @@
         {
             "id": 23,
             "name": "Trello"
+        },
+        {
+            "id": 24,
+            "name": "Dynatrace"
+        },
+        {
+            "id": 25,
+            "name": "AWS Services"
+        },
+        {
+            "id": 26,
+            "name": "Documentation"
+        },
+        {
+            "id": 27,
+            "name": "Jira"
+        },
+        {
+            "id": 28,
+            "name": "Veracode"
         }
     ]
 }

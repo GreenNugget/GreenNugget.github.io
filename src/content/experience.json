@@ -2,27 +2,34 @@
     "formalJobs": [
         {
             "id": 1,
-            "timeline": "July 2024 - Currently",
+            "timeline": "January 2025 - Currently",
+            "job_title": "Software Engineer",
+            "work_place": "Western Governors University",
+            "job_description": "I'm a backend developer, working with multiple technologies for student applications, following testing and coding standards that help us secure the code and keep the maintainability of all the systems. On a daily basis I work with AWS, Dynatrace, Oracle DB and other technologies that are related to API development and UI/UX design. I'm not only coding but also designing and sharing ideas to keep the communication flowing and the code clean and functional."
+        },
+        {
+            "id": 2,
+            "timeline": "July 2024 - January 2025",
             "job_title": "Java Backend Developer",
             "work_place": "Accenture México",
             "job_description": "As a Java Spring Boot Backend Developer, I work with multiple private technologies that keep the code clean, secure and with the quality needed to keep our clients services running at the best of our capabilities. On a daily basis, I work with private Java components, a designer for APIs and other tools for coding and team management."
         },
         {
-            "id": 2,
+            "id": 3,
             "timeline": "March 2023 - April 2024",
             "job_title": "Web Developer",
             "work_place": "Your Answer Center Solution",
             "job_description": "I work as a frontend developer using React for a company private application. I'm also in charge of small-medium changes in the company portal, using Laravel as a fullstack tool. I contribute to the team by gatering information and simplifying internal processes."
         },
         {
-            "id": 3,
+            "id": 4,
             "timeline": "July 2022 - January 2023",
             "job_title": "Web Developer",
             "work_place": "Zebra High Performance Mkt",
             "job_description": "I was in charge of the maintenance of our clients landing pages, websites and the company portal and API. I worked with tools like WordPress, Instapage, CodeIgniter, Kommo CRM, ActiveCampaign, Zapier, FileZilla and MySQL."
         },
         {
-            "id": 4,
+            "id": 5,
             "timeline": "March 2021 - July 2021",
             "job_title": "Web Development Teacher",
             "work_place": "IBITS Academy",
