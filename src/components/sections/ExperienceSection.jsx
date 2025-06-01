@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from 'react-router-dom';
 
 import experienceInfo from '../../content/experience.json';
 
@@ -9,7 +10,7 @@ function ExperienceSection () {
             <Row>
                 <Col lg={5} xs={10} className='mt-5 border-end'>
                     <p className='main-white roboto-medium w-75 text-justify fs-5'>I have <span className='clear-blue-color'>3 years of experience</span> in web development. I've worked as a backend and frontend developer and thus, I'm <span className='clear-blue-color'>proficient</span> in database design, API development, consumption and management, database consults and tools like Notion, Figma, Trello, GitHub, Jira, AWS and other gadgets that help with the development and improve the organization/workflow.</p> <br />
-                    <a href='/aboutme' className='dark-button roboto-bold mt-5 fs-5'>Know More</a>
+                    <Link to='/aboutme' className='dark-button roboto-bold mt-5 fs-5'>Know More</Link>
                 </Col>
                 <Col lg={7} xs={10}>
                     <Row>

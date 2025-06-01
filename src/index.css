@@ -161,6 +161,18 @@ body{
   color: var(--clear-blue) !important;
 }
 
+.menu-nav-link{
+  margin: 0px 1rem;
+  color: var(--main-white);
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-nav-link:hover{
+  color: var(--clear-blue);
+  transform: translateY(-8px);
+}
+
 /* SIZES */
 .width-30{
   width: 30% !important;

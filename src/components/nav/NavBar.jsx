@@ -1,5 +1,6 @@
 import { Navbar, Nav, Container, Image } from 'react-bootstrap';
 import personalPic from '../../images/me.jpg';
+import { Link } from 'react-router-dom';
 
 function NavBar() {
     return (
@@ -11,10 +12,10 @@ function NavBar() {
                 <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                 <Navbar.Collapse className='text-right flex-grow-0'>
                     <Nav className='roboto-medium fs-4'>
-                        <Nav.Link href='/'>Home</Nav.Link>
-                        <Nav.Link href='/skills'>Skills</Nav.Link>
-                        <Nav.Link href='/portfolio'>Portfolio</Nav.Link>
-                        <Nav.Link href='/aboutme'>About Me</Nav.Link>
+                        <Link to='/' className='menu-nav-link'>Home</Link>
+                        <Link to='/skills' className='menu-nav-link'>Skills</Link>
+                        <Link to='/portfolio' className='menu-nav-link'>Portfolio</Link>
+                        <Link to='/aboutme' className='menu-nav-link'>About Me</Link>
                     </Nav>
                 </Navbar.Collapse >
             </Container>

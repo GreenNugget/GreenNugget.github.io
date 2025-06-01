@@ -1,4 +1,4 @@
-import { Container, Card, Row, Col } from 'react-bootstrap';
+import { Card, Row, Col } from 'react-bootstrap';
 
 import completePortfolio from '../../src/content/portfolio.json';
 
