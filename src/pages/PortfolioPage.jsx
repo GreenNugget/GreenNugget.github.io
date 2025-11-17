@@ -1,4 +1,4 @@
-import { Card, Row, Col } from 'react-bootstrap';
+import { Card, Row, Tabs, Tab } from 'react-bootstrap';
 
 import completePortfolio from '../../src/content/portfolio.json';
 
@@ -6,39 +6,46 @@ function PortfolioPage() {
     return (
         <div>
             <Row className='margin-top-10 mx-auto'>
-                {
-                    completePortfolio.mainProjects.map((project) => (
-                        <Col xl={4} className='mb-5'>
-                            <Card className='w-100 dark-blue-background clear-blue-border mx-auto' key={project.id}>
-                                <Card.Title className='secondary-dark-blue-background p-3'>
-                                    <h4 className='roboto-bold main-white'>{project.project_name}</h4>
-                                </Card.Title>
-                                <Card.Text className='p-3'>
-                                    <p className='main-white roboto-regular w-100 text-justify fs-5'>{project.description}</p>
-                                </Card.Text>
-                            </Card>
-                        </Col>
-                        
-                    ))
-                }
+                <h1 className='primary-color roboto-regular text-center mb-5'>Main Missions</h1>
+                <Card className='w-75 mx-auto white-background secondary-border-slim p-5 text-justify'>
+                    <Tabs
+                        defaultActiveKey="Landing Page for Local Business"
+                        id="uncontrolled-tab-example"
+                        className="mb-3"
+                    >
+                        {
+                            completePortfolio.mainProjects.map((project) => (
+                                <Tab eventKey={project.project_name} title={project.project_name} key={project.id}>
+                                    <p className='primary-color'>
+                                        {project.description}
+                                    </p>
+                                </Tab>
+                            ))
+                        }
+                    </Tabs>
+                </Card>
             </Row>
-            <hr className='main-white' />
+
+
             <Row className='margin-top-10 mx-auto'>
-                <h1 className='main-white roboto-regular text-center mb-5'>Side Quests</h1>
-                {
-                    completePortfolio.sideProjects.map((project) => (
-                        <Col xl={4} className='mb-5'>
-                            <Card className='w-100 dark-blue-background clear-blue-border mx-auto' key={project.id}>
-                                <Card.Title className='secondary-dark-blue-background p-3'>
-                                    <h4 className='roboto-bold main-white'>{project.project_name}</h4>
-                                </Card.Title>
-                                <Card.Text className='p-3'>
-                                    <p className='main-white roboto-regular w-100 text-justify fs-5'>{project.description}</p>
-                                </Card.Text>
-                            </Card>
-                        </Col>  
-                    ))
-                }
+                <h1 className='primary-color roboto-regular text-center mb-5'>Side Quests</h1>
+                <Card className='w-75 mx-auto white-background secondary-border-slim p-5 text-justify'>
+                    <Tabs
+                        defaultActiveKey="Notion Templates"
+                        id="uncontrolled-tab-example"
+                        className="mb-3"
+                    >
+                        {
+                            completePortfolio.sideProjects.map((project) => (
+                                <Tab eventKey={project.project_name} title={project.project_name} key={project.id}>
+                                    <p className='primary-color'>
+                                        {project.description}
+                                    </p>
+                                </Tab>
+                            ))
+                        }
+                    </Tabs>
+                </Card>
             </Row>
         </div>
     );

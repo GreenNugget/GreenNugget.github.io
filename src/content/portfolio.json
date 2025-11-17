@@ -2,12 +2,12 @@
     "mainProjects": [
         {
             "id": 1,
-            "project_name": "Vainilla Landing Page",
+            "project_name": "Landing Page for Local Business",
             "description": "While I was in college, I got into a group of students who worked non-profit to make small software projects for small Merida businesses and I got to design and build a landing page with animations from scratch by myself (with the supervision of the students that were part of the group) for the very first time. I worked with Figma for the UI, JS for animations and CSS and HTML for everything else."
         },
         {
             "id": 2,
-            "project_name": "Vainilla Landing Page",
+            "project_name": "Landing Page for a Psychologist",
             "description": "My first freelance job was to design and develop a landing page for a Psychologist using vainilla technologies such as Figma for the design of the prototypes (desktop, mobile and tablet) and JS, CSS and HTML for the content. Fun fact: this was the first time I got in touch with a server by myself to upload the landing page and I enjoyed it."
         },
         {
@@ -35,7 +35,32 @@
         {
             "id": 1,
             "project_name": "Notion Templates",
-            "description": "I enjoy using Notion. I started creating templates a couple of years ago, when I started my Thesis project. I fell in love with Notion and since then, I've creted templates for organizing school life, a budget manager and even a books tracker. Right now the budget manager is the only one available for sale, but I also started a blog and most likely will post my new creations there as they come to life."
+            "description": "I enjoy using Notion. I started creating templates a couple of years ago, when I started my Thesis project. I fell in love with Notion because of the flexibility it gives you, you can literally imagine and create and those are my favorite kinds of software, so after my discovery I've been curating different templates for organization, mostly, going from school life, to a budget manager and even a books tracker for my readings. I love investing time in them and improving their performance and design! At this moment, only the budget manager is available for sale, but I also started a blog and most likely will post my new creations there as they come to life."
+        },
+        {
+            "id": 2,
+            "project_name": "Speaker in: Github for noobies",
+            "description": "On October 2020, when I was still on the University, I gave a Git/GitHub workshop for the incoming students, teaching them the basics commands for Git and the difference with GitHub using real life examples. Through the workshop we used practical examples to explain to the students the importance of version control systems and why is useful to have remote repositories. We also covered how to use and configure both of them and the importance in software development."
+        },
+        {
+            "id": 3,
+            "project_name": "Volunteer in the 2020 Volunteership Program: Coding;Talkers",
+            "description": "Through September - December 2020, I joined a group of students to contribute and help small businesses in Mérida, Yucatán, so they could have their own website available for free. This was my first solo project and I had to design everything from scratch using Figma and built it using vanilla technologies in a short period of time."
+        },
+        {
+            "id": 4,
+            "project_name": "Speaker in: International Day of Women and Girls in Science: Approaching to the Software",
+            "description": "On February 2021, I was invited by a teacher to give a talk for a group of students about Women in Software Development. The activity was focused on how meaningful it is to have Women in Tech and how they can become one if they decide to pursue a career on IT."
+        },
+        {
+            "id": 5,
+            "project_name": "Participant and Winner of Datathon 2024 at Yucatan i6 Technology Congress",
+            "description": "In May 2024, I joyned a group of IT Women to participate in the Datathon at Yucatan i6 Technology Congress. We were presented a challenge which was focused on women rights, we had to apply data analysis principles and tools to understand the information given to us and use it to propose a tool or some kind of resource for women in vulnerable or dangerous situations. As a result, we proposed a platform with all the resources and an AI chatbot to help women in need; I was in charge of the design and completed the mockup within hours using Figma."
+        },
+        {
+            "id": 6,
+            "project_name": "Personal Blog: Naomi's Column",
+            "description": "I recently started a personal blog where I post about different topics, from Women in Tech to personal thoughts and experiences. I built the blog using Notion pages because again, I REALLY love Notion, so I figured it was a great way to start writing (something that I also enjoy a lot) and share a piece of my mind with the community on LinkedIn."
         }
     ],
     "otherActivities": [

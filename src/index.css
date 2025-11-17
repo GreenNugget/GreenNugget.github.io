@@ -1,23 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
-  --primary-dark-blue: #0A1128;
-  --secondary-dark-blue: #001F54;
-  --terciary-blue: #034078;
-  --clear-blue: #2196F3;
-  --main-white: #FEFCFB;
+  --primary: #212529;
+  --secondary: #3A4651;
+  --third-one: #6C6E71;
+  --main-white: #F8EDEB;
 }
 
 body{
   margin: 0em !important;
   padding: 0em !important;
   overflow-x: hidden;
-  background-color: #0A1128 !important;
+  background-color: var(--main-white) !important;
 }
 
 /*FONTS STYLES*/
-.clear-blue-color{
-  color: var(--clear-blue);
+.primary-color{
+  color: var(--primary) !important;
+}
+
+.secondary-color{
+  color: var(--secondary);
+}
+
+.third-one-color{
+  color: var(--third-one);
 }
 
 .main-white{
@@ -98,27 +105,43 @@ body{
 }
 
 /* BACKGROUNDS */
-.dark-blue-background{
-  background-color: var(--primary-dark-blue) !important;
+.primary-background{
+  background-color: var(--third-one) !important;
 }
 
-.secondary-dark-blue-background{
-  background-color: var(--secondary-dark-blue);
+.secondary-background{
+  background-color: var(--secondary);
+}
+
+.third-one-color-background{
+  background-color: var(--third-one);
+}
+
+.white-background{
+  background-color: var(--main-white) !important;
 }
 
 /* BORDERS */
-.clear-blue-border{
-  border: 4px solid var(--secondary-dark-blue) !important;
+.primary-border{
+  border: 3px solid var(--primary) !important;
+}
+
+.secondary-border-slim{
+  border: 2px solid var(--secondary) !important;
+}
+
+.third-one-border{
+  border: 4px solid var(--secondary) !important;
 }
 
 /* BUTTONS & PILLS */
 .disabled-pill{
   width: auto;
   padding: 1% 1.5%;
-  color: var(--main-white);
-  background-color: var(--terciary-blue);
+  color: var(--secondary);
+  background-color: var(--main-white);
   border-radius: 15px;
-  border: 1px solid var(--main-white);
+  border: 3px solid var(--secondary);
 }
 
 .dark-button{
@@ -126,18 +149,18 @@ body{
   padding: 1.5% 3%;
   margin-top: 5% !important;
   text-decoration: none;
-  color: var(--clear-blue);
-  background-color: var(--darker-blue);
+  color: var(--secondary);
+  background-color: var(--main-white);
   border-radius: 8px;
-  border: 1px solid var(--clear-blue);
+  border: 2px solid var(--third-one);
 }
 
 .dark-button:hover{
   text-decoration: none;
   color: var(--main-white);
-  background-color: var(--clear-blue);
+  background-color: var(--secondary);
   border-radius: 8px;
-  border: 1px solid var(--darker-blue);
+  border: 1px solid var(--secondary);
 }
 
 /* Rewrited Styles */
@@ -154,23 +177,36 @@ body{
 }
 
 .nav-link{
-  color: var(--main-white) !important;
+  color: var(--primary) !important;
+  font-weight: 500 !important;
+  background-color: var(--main-white) !important;
+  border-color: var(--primary) !important;
 }
 
 .nav-link:hover{
-  color: var(--clear-blue) !important;
+  color: var(--main-white) !important;
+  background-color: var(--primary) !important;
+}
+
+button.active{
+  color: var(--main-white) !important;
+  background-color: var(--primary) !important;
 }
 
 .menu-nav-link{
   margin: 0px 1rem;
-  color: var(--main-white);
+  color: var(--primary);
   text-decoration: none;
   transition: transform 0.3s ease-in-out;
 }
 
 .menu-nav-link:hover{
-  color: var(--clear-blue);
+  color: var(--third-one);
   transform: translateY(-8px);
+}
+
+.custom-border-end {
+  border-right: 3px solid var(--secondary) !important;
 }
 
 /* SIZES */
@@ -194,10 +230,10 @@ body{
 /* LINKS */
 .icon-link {
   transition: transform 0.3s ease-in-out;
-  filter: brightness(0) saturate(100%) invert(100%) sepia(90%) saturate(256%) hue-rotate(342deg) brightness(113%) contrast(99%);
+  filter: brightness(0) saturate(100%) invert(11%) sepia(2%) saturate(2845%) hue-rotate(140deg) brightness(96%) contrast(89%)
 }
 
 .icon-link:hover{
   transform: translateY(-8px);
-  filter: brightness(0) saturate(100%) invert(65%) sepia(85%) saturate(4762%) hue-rotate(184deg) brightness(100%) contrast(91%);
+  filter: brightness(0) saturate(100%) invert(44%) sepia(1%) saturate(1376%) hue-rotate(176deg) brightness(97%) contrast(95%)
 }
